@@ -38,8 +38,12 @@
     font-weight: 500;
 }
 
+.menu li{
+    text-decoration: none;
+}
+
 .navbar .menu li{
-    list-style: none;
+   
     display: inline-block;
 }
 
@@ -135,7 +139,7 @@ main{
 }
 
 
-.botão{
+.butao{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -145,10 +149,17 @@ main{
     border-radius: 12px;
     background: black;
     color: #fff;
-    border: 2px solid blue;
 }
 
-.botão:hover{
+.submit{
+    background: #000000;
+    color: white;
+    width: 150px;
+    height: 33px;
+    border-radius: 12px;
+}
+
+.submit:hover{
     background-color: rgb(62, 62, 62);
     color: #fff;
     cursor: pointer;
@@ -156,6 +167,13 @@ main{
     transition: all 1s ease;
 }
 
+.butao:hover{
+    background-color: rgb(62, 62, 62);
+    color: #fff;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
 
 /* area da section */
 

@@ -31,12 +31,11 @@
                     </div>
 
                     <ul class="menu">
-                        <li><a href="#">Inicio</a></li>
-                        <li><a href="#">Inicio</a></li>
-                        <li><a href="#">Inicio</a></li>
-                        <li><a href="#">Inicio</a></li>
-                        <li><a href="#">Inicio</a></li>
-                        <li><a href="#">Inicio</a></li>
+                        <li><a href="./Ação.html">Ação</a></li>
+                        <li><a href="#">Avendura</a></li>
+                        <li><a href="#">Corridas</a></li>
+                        <li><a href="#">Sporte</a></li>
+                        <li><a href="#">Cadastro</a></li>
                     </ul>
                 </div>
 
@@ -47,7 +46,7 @@
                     </button>
                 </div>
             </div>
-
+        </header>
             <!-- Carrossel -->
             <div
                 id="carouselExampleControls"
@@ -115,11 +114,17 @@
                         excepturi explicabo, cupiditate, blanditiis officia
                         fugit impedit.
                     </p>
-                    <button class="botão">Saiba Mais!</button>
+                    <form class="butao" action="./sobreNós.html">
+                        <input
+                            class="submit"
+                            type="submit"
+                            value="Saiba Mais"
+                        />
+                    </form>
+                    <!-- <button class="botão">Saiba Mais!</button> -->
                 </div>
             </main>
 
-            
             <!-- area dos cards-->
 
             <section>
@@ -216,7 +221,14 @@
                 crossorigin="anonymous"
             ></script>
             <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
-            <script src="./js/main.js"></script>
-        </header>
+            <script>
+                window.sr = ScrollReveal({ reset: true });
+
+                sr.reveal('.navbar', {
+                    rotate: { x: 0, y: 80, z: 0 },
+                    duration: 2000,
+                });
+            </script>
+       
     </body>
 </html>
