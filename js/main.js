@@ -159,14 +159,6 @@ var games = [
         image: 'https://store-images.s-microsoft.com/image/apps.55562.14019812399166283.86c56d8c-9235-45b0-85dd-dc9647631d6e.d1c98280-ac63-4f01-85ed-41e58c8fac35?w=412&format=jpg',
         title: 'Citizen Sleeper',
     },
-    {
-        image: 'https://store-images.s-microsoft.com/image/apps.11196.63460736466173537.43accb13-0658-4cb9-a3a9-2dd4b18ae15e.c12756d4-a28f-46d2-89d0-43593731f0d5?w=412&format=jpg',
-        title: 'ClusterTruck',
-    },
-    {
-        image: 'https://store-images.s-microsoft.com/image/apps.30354.13910765112993759.85e2446b-e867-4d17-a642-a74c828870ce.c92e92ee-4550-424d-9389-a717815bd19f?w=412&format=jpg',
-        title: 'Coffee Talk',
-    },
 ];
 
 console.log(games);
@@ -176,8 +168,8 @@ parent.innerHTML = null;
 games.forEach((game) => {
     parent.innerHTML += `
     
-        <main id="parent">
         
+        <section id="parent">
              <div class="card">
                     <img src="${game.image} " style="width: 100%">
                     <h2>${game.title}</h2>
@@ -187,8 +179,8 @@ games.forEach((game) => {
                         <a href="#">Comprar</a>
                     </div>
                 </div>
-          
-        </main>
+            </section>
+    
 
     `;
 });

@@ -19,11 +19,6 @@
             <nav>
                 <a class="logo-1" href="./index.html">Nitro Games</a>
                 <ul class="nav-list">
-                    <div class="mobile-menu">
-                        <div class="line1"></div>
-                        <div class="line2"></div>
-                        <div class="line3"></div>
-                    </div>
                     <li><a href="#">Avendura</a></li>
                     <li><a href="#">Corridas</a></li>
                     <li><a href="#">Sporte</a></li>
@@ -31,7 +26,8 @@
             </nav>
         </header>
 
-        <main id="parent">
+        
+        <section id="parent">
             <div class="card">
                 <img src="${game.image} " style="width: 100%" />
                 <h2>Jogos</h2>
@@ -43,45 +39,13 @@
                 </p>
                 <a href="#">Comprar</a>
             </div>
-        </main>
+        </section>
+    
 
         <footer class="rodape">
             <p>2022&copy; / Todos os direitos reservados / Vitor Leoni</p>
         </footer>
 
-        <script>
-            class MobileNavbar {
-                constructor(mobileMenu, navList, navLinks) {
-                    this.mobileMenu = document.querySelector(mobileMenu);
-                    this.navList = document.querySelector(navList);
-                    this.navLinks = document.querySelectorAll(navLinks);
-                    this.activeClass = 'active';
-                }
-
-                hanleClick(){
-                    this.navList.classList.toggle(this.activeClass);
-                }
-
-                addClickEvent() {
-                    this.mobileMenu.addEventListtener("click", this.activeClass);
-                }
-
-                init() {
-                    if (this.mobileMenu) {
-                        this.addClickEvent();
-                    }
-                    return this;
-                }
-            }
-
-            const MobileNavbar = new MobileNavbar(
-                '.mobile-menu',
-                '.nav-list',
-                '.nav-list li'
-            );
-
-            MobileNavbar.init();
-        </script>
-     <script src="./js/main.js"></script>
+    <script src="./js/main.js"></script>
     </body>
 </html>
