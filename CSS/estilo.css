@@ -232,10 +232,10 @@ section{
 }
 
 .card-image{
-    background-color: aqua;
+    background-color: #00ffff;
     height: 170px;
     margin-bottom: 15px 15px 0 0;
-
+    background-size: cover;
 }
 
 .card-1{

@@ -89,6 +89,7 @@ h2{
 /* Area dos cards */
 
 
+
 .card{
     display: block;
     width: 300px;
@@ -122,6 +123,14 @@ h2{
     text-decoration: none;
 }
 
+.card h2{
+    padding: 20px;
+}
+
+.card p{
+    padding: 10px;
+}
+
 /* Area do rodapé */
 
 
@@ -134,5 +143,4 @@ footer{
     text-align: center;
     font-size: 37px;
 }
-
 
