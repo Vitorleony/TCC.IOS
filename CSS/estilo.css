@@ -87,15 +87,14 @@ span{
 
 
 .imge{
-    border: 2px solid blue;
-    border-radius: 15px;
+    border-radius: 5rem;
     margin-left: 15px;
 }
 
 .imge img{
     width: 100px;
     height: 100px;
-    border-radius: 15px;
+    border-radius: 5rem;
 }
 
 
