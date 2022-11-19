@@ -38,11 +38,12 @@
                 </div>
 
                 <div class="pesquisa">
-                    <input type="text" placeholder="Pesquisa..." />
-                    <button class="buttonSearch">
+                    <input class="pesquisaJogos" type="text" placeholder="Pesquisa..." />
+                    <button class="buttonSearch" onclick="chamarJogo()" type="submit">
                         <ion-icon name="search"></ion-icon>
                     </button>
                 </div>
+
             </div>
         </header>
             <!-- Carrossel -->
@@ -99,7 +100,7 @@
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
-
+            <span id="mostraCardJogo"></span>
             <!-- area bem-vindo-->
 
             <main>
@@ -137,7 +138,7 @@
                             accusantium sint tempora perspiciatis cum, ab
                             quibusdam vel fugiat cupiditate.
                         </p>
-                        <a href="#">Comprar</a>
+                        <a href="https://www.figma.com/login">Comprar</a>
                     </div>
 
                     <div class="card">
@@ -227,6 +228,6 @@
                     duration: 2000,
                 });
             </script>
-       
+       <script src="main.js"></script>
     </body>
 </html>
