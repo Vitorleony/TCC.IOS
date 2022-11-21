@@ -1,0 +1,184 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    font-family: sans-serif;
+    background: linear-gradient(45deg, #6ea2da, #191e7b, #070101, #0d0f0f);
+    background-size: 300% 300%;
+    animation: colors 15s ease infinite;
+}
+
+
+
+@keyframes colors{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+
+
+
+
+
+
+
+
+
+ul{
+    list-style: none;
+}
+
+/* formulário */
+
+.wrapper{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup{ 
+    max-width: 50rem;
+    width: 100% ;
+}
+
+.img{
+    text-align: center;
+}
+
+.logo{
+    background-image: url(/ana/tcc/assets/IMG/logo.jpg);
+    display: inline-block;
+    height: 9rem;
+    width: 9rem;
+    border-radius: 5rem;
+}
+
+.signup_title{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+    margin-top: 2.8rem;
+}
+
+.form_group{
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+.form_input-text{
+    background-color: #f5f6f8;
+    width: 100%;
+    height: 6rem;
+    border: .2rem solid #ededf1;
+    border-radius: 1rem;
+    position: relative;
+    outline: none;
+    padding-left: 4.5rem;
+    font-size: 1.5rem;
+}
+
+.form_label{
+    position: absolute;
+    top: 1rem;
+}
+
+.form{
+    margin-top: 1.5rem;
+}
+
+.form_input-text::placeholder {
+    color: #c1c6d0;
+    font-weight: bold;
+}
+
+.form_input-icon{
+    color: #8a93a5;
+    position: absolute;
+    left: 1.5rem;
+    top: 2.2rem;
+    font-size: 1.5rem; 
+}   
+
+.requeriments_progress-bar{
+    background-color: #f3e24a;
+    border-radius: 5rem;
+    height: .5rem;
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+.requeriments_description, .item{
+    color: #9ea4ac;
+    margin: 0.5rem;
+    font-size: 1.4rem;
+} 
+
+.fas::before{
+    content: "\f007"
+}
+
+.item .fas::before{
+    content: "\e56d";
+}
+
+.item.checked{
+    color: greenyellow;
+    font-weight: bold;
+}
+
+.item.checked .fas::before{
+    content: "\f058";
+}
+
+.requeriments{
+    border-bottom: 1px solid #d9d9d9;
+    padding-bottom: 1rem;
+}
+
+.btn{
+    background-color: white;
+    color:  rgb(4, 4, 61);
+    font-size: 1.8rem;
+    font-weight: bold;
+    height: 5rem;
+    width: 15rem;
+    border-radius: 2.5rem;
+    cursor: pointer;  
+    margin-top: 20px;
+}
+
+re
+
+.center{ 
+    text-align: center;
+}
+
+.form_message-error{
+    display: block;
+    color: red;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: .5rem;
+    
+}
