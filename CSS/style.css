@@ -15,7 +15,7 @@ html{
 
 body{
     font-family: sans-serif;
-    background: linear-gradient(45deg, #6ea2da, #191e7b, #070101, #0d0f0f);
+    background: linear-gradient(45deg, #506272, #102027, #7b98d8, #0f2327);
     background-size: 300% 300%;
     animation: colors 15s ease infinite;
 }
@@ -166,9 +166,9 @@ ul{
     border-radius: 2.5rem;
     cursor: pointer;  
     margin-top: 20px;
+    margin-left: 17vh;
 }
 
-re
 
 .center{ 
     text-align: center;
@@ -180,5 +180,4 @@ re
     font-size: 1.2rem;
     font-weight: bold;
     margin-top: .5rem;
-    
 }
