@@ -1,0 +1,118 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    font-family: sans-serif;
+    background: linear-gradient(45deg, #6ea2da, #191e7b, #070101, #0d0f0f);
+    background-size: 300% 300%;
+    animation: colors 15s ease infinite;
+}
+
+@keyframes colors{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+
+/* formulário */
+.container{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.login{ 
+    max-width: 50rem;
+    width: 100% ;
+}
+
+.img{
+    text-align: center;
+}
+
+.logo{
+    display: inline-block;
+    height: 9rem;
+    width: 9rem;
+    border-radius: 5rem;
+}
+
+.titulo{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+    margin-top: 2.8rem;
+}
+
+.caixa{
+    margin-bottom: 2rem;
+    position: relative;
+    text-align: center;
+}
+
+.form_input-text{
+    background-color: #f5f6f8;
+    width: 100%;
+    height: 6rem;
+    border: .2rem solid #ededf1;
+    border-radius: 1rem;
+    position: relative;
+    outline: none;
+    padding-left: 4.5rem;
+    font-size: 1.5rem;
+}
+
+.etiq{
+    position: absolute;
+    top: 1rem;
+}
+
+.form{
+    margin-top: 1.5rem;
+}
+
+.form_input-text::placeholder {
+    color: #c1c6d0;
+    font-weight: bold;
+}
+
+.form_input-icon{
+    color: #8a93a5;
+    position: absolute;
+    left: 1.5rem;
+    top: 2.2rem;
+    font-size: 1.5rem; 
+}   
+
+.btn{
+    background-color: white;
+    color:  rgb(4, 4, 61);
+    font-size: 1.8rem;
+    font-weight: bold;
+    height: 5rem;
+    width: 15rem;
+    border-radius: 2.5rem;
+    cursor: pointer;  
+    margin-top: 20px;
+}
