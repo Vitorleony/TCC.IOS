@@ -20,8 +20,6 @@ body{
     animation: colors 15s ease infinite;
 }
 
-
-
 @keyframes colors{
     0%{
         background-position: 0% 50%;
@@ -33,14 +31,6 @@ body{
         background-position: 0% 50%;
     }
 }
-
-
-
-
-
-
-
-
 
 ul{
     list-style: none;
@@ -65,7 +55,6 @@ ul{
 }
 
 .logo{
-    background-image: url(/ana/tcc/assets/IMG/logo.jpg);
     display: inline-block;
     height: 9rem;
     width: 9rem;
