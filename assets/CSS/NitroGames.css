@@ -155,7 +155,7 @@ span{
 /* area da main */
 
 main{
-    background: linear-gradient(45deg, #084177, #687466, #c8d87b, #90ebfb);
+    background: linear-gradient( 45deg, #506272, #102027, #7b98d8, #0f2327);
     background-size: 300% 300%;
     animation: colors 15s ease infinite;
     height: 260px;
@@ -190,10 +190,67 @@ main{
 /* area da section */
 
 section{
-    background: linear-gradient(45deg, #506272, #102027, #7b98d8, #0f2327);
+    background: linear-gradient(45deg, #084177, #687466, #c8d87b, #90ebfb);
     background-size: 300% 300%;
     animation: colors 15s ease infinite;
 }
+
+
+.container-1{
+    max-width: 1100px;
+    margin: auto;
+    overflow: auto;
+    padding: 0 2rem;
+    
+}
+
+
+.card-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    background: linear-gradient(45deg, #084177, #687466, #c8d87b, #90ebfb);
+    margin-bottom: 2rem;
+}
+
+
+
+.card-grid h3{
+    margin-top: 2rem;
+}
+
+.card-grid>div{
+    padding: 2rem;
+}
+
+.card-grid:nth-child(even) img{
+    order: 2;
+}
+
+.card-grid img{
+    width: 90%;
+    height: 90%;
+}
+
+.btn-grid{
+    display: inline-block;
+    background: rgb(7, 6, 6);
+    color: white;
+    border: 2px solid #2d467a;
+    cursor: pointer;
+    border-radius: 12px;
+    width: 17vh;
+    height: 6vh;
+}
+
+.btn-grid{
+    align-items: center;
+}
+
+.btn:hover{
+    opacity: 0.8;
+}
+
 
 @keyframes colors{
     0%{
@@ -243,15 +300,6 @@ button{
     transition: all 1s ease;
 } 
 
-
-
-
-
-
-
-
-
-
 .card-image{
     background-color: #00ffff;
     height: 170px;
@@ -291,15 +339,6 @@ button{
     padding: 10px;
 }
 
-/* .card a{
-    background-color: black;
-    color: #fff;
-    padding: 15px 20px;
-    text-align: center;
-    margin: 20px 45px;
-    border-radius: 15px 15px;
-    /* text-decoration: none; */
-} */
 
 .card:hover{
     background-color: rgb(62, 62, 62);
