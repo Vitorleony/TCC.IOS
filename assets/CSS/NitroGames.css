@@ -8,12 +8,37 @@
     font-family: 'Cormorant Garamond', serif;
 }
 
-body{
-    background: linear-gradient(45deg, #6ea2da, #191e7b, #070101, #0d0f0f);
-    background-size: 300% 300%;
-    animation: colors 15s ease infinite;
+
+/* area do carrossel */
+
+article{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-height: 55vh;
+    background: linear-gradient( 45deg, #506272, #102027, #7b98d8, #0f2327);
 }
 
+.carrossel {
+    box-shadow: 2px 2px 5px white;
+    overflow: hidden;
+    height: 50vh;
+    width: 180vh;
+    border-radius: 19px;
+}
+
+.container-0 {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
+}
+
+.container-0 img {
+    object-fit: cover;
+    height: 1200px;
+    width: 1200px;
+}
 
 /* navbar inicio */
 
@@ -32,15 +57,12 @@ li a{
     text-decoration: none;
 }
 
-.logo-1{
+.logo{
     font-size: 29px;
     text-transform: uppercase;
     letter-spacing: 4px;
 }
 
-.navbar{
-    visibility: hidden;
-}
 
 .navbar .logo a{
     color: #fff;
@@ -136,50 +158,47 @@ span{
     transform: scale(1.4);
 }
 
-.fundo{
-    text-align: center;
-}
-
-.butao{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-left: 30px;
-    width: 150px;
-    height: 33px;
-    border-radius: 12px;
-    background: black;
-    color: #fff;
-}
 
 /* area da main */
 
 main{
-    background: linear-gradient( 45deg, #506272, #102027, #7b98d8, #0f2327);
+    min-height: 41vh;
+    background: linear-gradient( 45deg, #e5e9ec, #dae4e9, #cdd1da, #c6f5ff);
     background-size: 300% 300%;
     animation: colors 15s ease infinite;
-    height: 260px;
-    padding: 20px;
 }
 
-
-.submit{
-    background: #000000;
-    color: white;
+.fundo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.fundo h1,
+.fundo p {
+    width: 100%;
+    text-align: center;
+}
+.saiba-mais{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
     width: 150px;
-    height: 33px;
+    height: 38px;
     border-radius: 12px;
-}
-
-.submit:hover{
-    background-color: rgb(62, 62, 62);
+    background: black;
     color: #fff;
-    cursor: pointer;
-    transform: scale(1.03);
-    transition: all 1s ease;
+    text-decoration: none;
 }
 
-.butao:hover{
+.Bem-vindo{
+    font-size: 56px;
+}
+
+
+.saiba-mais:hover{
     background-color: rgb(62, 62, 62);
     color: #fff;
     cursor: pointer;
@@ -201,7 +220,6 @@ section{
     margin: auto;
     overflow: auto;
     padding: 0 2rem;
-    
 }
 
 
@@ -305,38 +323,6 @@ button{
     height: 170px;
     margin-bottom: 15px 15px 0 0;
     background-size: cover;
-}
-
-.card-1{
-    background-image: url('./css.img/theenemy.jpg');
-}
-
-.card-2{
-    background-image: url('/IMG/basket-champs.webp');
-}
-
-.card-3{
-    background-image: url('./css.img/nfs.jpg');
-}
-
-.card-4{
-    background-image: url('/IMG/8-ball-pool.webp');
-}
-
-.card-5{
-    background-image: url('./css.img/images.jpg');
-}
-
-.card-6{
-    background-image: url('./css.img/the-last-us.jpg');
-}
-
-.card h2{
-    padding: 20px;
-}
-
-.card p{
-    padding: 10px;
 }
 
 
