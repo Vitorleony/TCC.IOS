@@ -23,8 +23,8 @@ article{
 .carrossel {
     box-shadow: 2px 2px 5px white;
     overflow: hidden;
-    height: 50vh;
-    width: 180vh;
+    height: 500px;
+    width: 500px;
     border-radius: 19px;
 }
 
@@ -36,8 +36,8 @@ article{
 
 .container-0 img {
     object-fit: cover;
-    height: 1200px;
-    width: 1200px;
+    height: 500px;
+    width: 500px;
 }
 
 /* navbar inicio */
@@ -162,7 +162,7 @@ span{
 /* area da main */
 
 main{
-    min-height: 41vh;
+    min-height: 31vh;
     background: linear-gradient( 45deg, #e5e9ec, #dae4e9, #cdd1da, #c6f5ff);
     background-size: 300% 300%;
     animation: colors 15s ease infinite;
@@ -175,10 +175,11 @@ main{
     align-items: center;
     flex-wrap: wrap;
 }
-.fundo h1,
+
 .fundo p {
     width: 100%;
     text-align: center;
+    font-size: 25px;
 }
 .saiba-mais{
     display: flex;
