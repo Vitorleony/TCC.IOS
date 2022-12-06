@@ -115,9 +115,12 @@ h2 {
 }
 
 .caixa {
-    margin-bottom: 2rem;
+    width: fit-content;
+    height: fit-content;
+    margin: 0 auto 2rem;
     position: relative;
     text-align: center;
+    
 }
 
 .form_input-text {
@@ -128,7 +131,7 @@ h2 {
     border-radius: 1rem;
     position: relative;
     outline: none;
-    padding-left: 1vh;
+    padding: 1rem 1.3rem;
     font-size: 17px;
 }
 
@@ -140,21 +143,25 @@ h2 {
 .form_input-text::placeholder {
     color: #c1c6d0;
     font-weight: bold;
+    padding: 1rem 1.3rem;
 }
 
 .form_input-icon{
     display: flex;
-    max-width: 60px;
-    margin-right: 600px;
+    position: absolute;
+    left: 0.5rem;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .btn {
     background-color: white;
     color: rgb(4, 4, 61);
-    font-size: 1.8rem;
+    font-size: 1.3rem;
     font-weight: bold;
-    height: 5rem;
-    width: 15rem;
+    height: fit-content;
+    width: fit-content;
+    padding: 1rem 1.3rem;
     border-radius: 2.5rem;
     cursor: pointer;
     margin-top: 20px;
