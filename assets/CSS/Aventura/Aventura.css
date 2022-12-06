@@ -1,59 +1,59 @@
 .card-1{
-    background-image: url('/assets/IMG/bob-the-robber.webp');
+    background-image: url('./assets/IMG/bob-the-robber.webp');
 }
 
 .card-2{
-    background-image: url('/assets/IMG/MotoX3M.avif');
+    background-image: url('./assets/IMG/MotoX3M.avif');
 }
 
 .card-3{
-    background-image: url('/assets/IMG/car-eats-car-dungeon-adventure.webp');
+    background-image: url('./assets/IMG/car-eats-car-dungeon-adventure.webp');
 }
 
 .card-4{
-    background-image: url('/assets/IMG/block-world-online.webp');
+    background-image: url('./assets/IMG/block-world-online.webp');
 }
 
 .card-5{
-    background-image: url('/assets/IMG/klo.png');
+    background-image: url('./assets/IMG/klo.png');
 }
 
 .card-6{
-    background-image: url('/assets/IMG/bomb.webp');
+    background-image: url('./assets/IMG/bomb.webp');
 }
 
 .card-7{
-    background-image: url('/assets/IMG/fireboy.avif');
+    background-image: url('./assets/IMG/fireboy.avif');
 }
 
 .card-8{
-    background-image: url('/assets/IMG/money3.jpg');
+    background-image: url('./assets/IMG/money3.jpg');
 }
 
 .card-9{
-    background-image: url('/assets/IMG/panda.jpg');
+    background-image: url('./assets/IMG/panda.jpg');
 }
 
 .card-10{
-    background-image: url('/assets/IMG/elefante.jpg');
+    background-image: url('./assets/IMG/elefante.jpg');
 }
 
 .card-11{
-    background-image: url('/assets/IMG/elefante2.jpg');
+    background-image: url('./assets/IMG/elefante2.jpg');
 }
 
 .card-12{
-    background-image: url('/assets/IMG/dynamons-4.webp');
+    background-image: url('./assets/IMG/dynamons-4.webp');
 }
 
 .card-13{
-    background-image: url('/assets/IMG/epic.png');
+    background-image: url('./assets/IMG/epic.png');
 }
 
 .card-14{
-    background-image: url('/assets/IMG/vegas.avif');
+    background-image: url('./assets/IMG/vegas.avif');
 }
 
 .card-15{
-    background-image: url('/assets/IMG/impostor.jpg');
+    background-image: url('./assets/IMG/impostor.jpg');
 }
