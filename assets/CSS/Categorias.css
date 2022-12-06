@@ -47,18 +47,18 @@ nav a{
     text-decoration: none;
 }
 
-.nav-list a{
+.menu a{
     color: #fff;
     text-decoration: none;
     transition: 0.3s;
 }
 
-.nav-list{
+.menu {
     list-style: none;
     display: flex;
 }
 
-.nav-list li{
+.menu li{
     letter-spacing: 3px;
     margin-left: 32px;
 }
@@ -145,4 +145,45 @@ footer{
     text-align: center;
     font-size: 37px;
 }
+
+.menu-button {
+    opacity: 0;
+    z-index: -99;
+}
+
+
+
+@media(max-width: 576px) {
+    .menu {
+        height: 0;
+       z-index: -99;
+       position: absolute;
+
+    }
+    .menu-active  {
+        display: block;
+        width: 100%;
+        height: fit-content;
+        background:  linear-gradient(45deg, #3d3232, #504f0c, #070101, #0d0f0f);
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        position: absolute;
+        right: 0;
+        top: 12vh;
+        z-index: 99;
+    }
+    .menu li, .menu li a {
+        width: 100%;
+        font-size: 1.5rem;
+        padding-left: 1.5rem;
+        margin: 1rem 0;
+        margin: auto;
+    }
+    .menu-button {
+        opacity: 1;
+        z-index: 999;
+    }
+    
+} 
 

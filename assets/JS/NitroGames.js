@@ -38,3 +38,11 @@ function carrossel(){
 }
 
 setInterval(carrossel, 1800);
+
+document.querySelector('.menu-button').addEventListener('click', () => {
+   if (!document.querySelector('.menu').classList.contains('menu-active')) {
+    document.querySelector('.menu').classList.add('menu-active')
+   } else {
+    document.querySelector('.menu').classList.remove('menu-active')
+   }
+})

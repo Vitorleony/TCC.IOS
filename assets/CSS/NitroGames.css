@@ -249,10 +249,10 @@ p{
 }
 
 
-/* ion-icon {
+ion-icon {
     font-size: 60px;
     color: #fff;
- } */
+ } 
  
  .container h3 {
      padding: 19px;
@@ -290,8 +290,25 @@ p{
     width: 100%;
     min-height: 31vh;
     text-align: center;
-    font-size: 37px;
 } 
+
+.rodape p {
+    display: flex;
+    justify-content: left;
+    font-size: 23px;
+}
+
+.rodape h2{
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+   
+}
+
+.rodape h1 {
+    align-items: center;
+    font-size: 26px;
+}
 
 @keyframes colors{
     0%{
@@ -303,6 +320,12 @@ p{
     100%{
         background-position: 0% 50%;
     }
+}
+
+
+.menu-button {
+    opacity: 0;
+    z-index: -99;
 }
 
 /* Respansividades */
@@ -348,8 +371,15 @@ p{
 
 @media(max-width: 576px) {
     .menu {
+        height: 0;
+       z-index: -99;
+       position: absolute;
+
+    }
+    .menu-active  {
         display: block;
         width: 100%;
+        height: fit-content;
         background:  linear-gradient(45deg, #3d3232, #504f0c, #070101, #0d0f0f);
         display: flex;
         flex-direction: column;
@@ -368,7 +398,7 @@ p{
     }
     .menu-button {
         opacity: 1;
-        z-index: 99;
+        z-index: 999;
     }
     
 } 
