@@ -48,7 +48,7 @@ article{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background: linear-gradient(45deg, #3d3232, #504f0c, #070101, #0d0f0f);
+    background: linear-gradient(45deg, #6ea2da, #0000b3, #000066, #070101);
     background-size: 300% 300%;
     animation: colors 15s ease infinite;
 }
@@ -283,7 +283,7 @@ ion-icon {
 
 
 .rodape {
-    background: linear-gradient(45deg, #000000, #141a13, #070101, #dae2e4);
+    background: linear-gradient(45deg, #6ea2da, #0000b3, #000066, #070101);
     background-size: 300% 300%;
     animation: colors 15s ease infinite;
     color: #fff;
