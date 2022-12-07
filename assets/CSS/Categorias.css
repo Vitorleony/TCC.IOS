@@ -61,12 +61,15 @@ nav a{
 .menu li{
     letter-spacing: 3px;
     margin-left: 32px;
+    font-weight: 600;
 }
 
 .logo-1{
     font-size: 24px;
     text-transform: uppercase;
     letter-spacing: 4px;
+    color: white;
+    font-weight: bold;
 }
 
 

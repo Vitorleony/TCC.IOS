@@ -245,7 +245,7 @@ img:hover{
 
 p{
     margin-bottom: 50px;
-    font-size: 1.2em;
+    font-size: .8em;
 }
 
 
@@ -307,7 +307,7 @@ ion-icon {
 
 .rodape h1 {
     align-items: center;
-    font-size: 26px;
+    font-size: 3px;
 }
 
 @keyframes colors{

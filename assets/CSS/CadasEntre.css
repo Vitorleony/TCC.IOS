@@ -21,7 +21,7 @@ html {
 
 body {
     font-family: sans-serif;
-    background: linear-gradient(45deg, #084177, #687466, #c8d87b, #90ebfb);
+    background: linear-gradient(45deg, #000066, #00004d, #070101, #0d0f0f);
     background-size: 300% 300%;
     animation: colors 15s ease infinite;
 }
@@ -34,7 +34,7 @@ nav {
     align-items: center;
     flex-wrap: wrap;
     height: 12vh;
-    background: linear-gradient(45deg, #3d3232, #504f0c, #070101, #0d0f0f);
+    background: linear-gradient(45deg, #6ea2da, #0000b3, #000066, #070101);
     background-size: 300% 300%;
     animation: colors 15s ease infinite;
 }
@@ -58,12 +58,16 @@ h2 {
 .nav-list li {
     letter-spacing: 3px;
     margin-left: 32px;
+    font-weight: 600;
 }
 
 .logo-1 {
     font-size: 24px;
     text-transform: uppercase;
+    text-decoration: none;
     letter-spacing: 4px;
+    color: white;
+    font-weight: bold;
 }
 
 @keyframes colors {
@@ -168,7 +172,7 @@ h2 {
 }
 
 footer {
-    background: linear-gradient(45deg, #000000, #141a13, #070101, #dae2e4);
+    background: linear-gradient(45deg,  #6ea2da, #0000b3, #000066, #070101);
     background-size: 300% 300%;
     animation: colors 15s ease infinite;
     color: #fff;
