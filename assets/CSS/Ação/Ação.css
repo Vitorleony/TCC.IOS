@@ -15,23 +15,23 @@
 }
 
 .card-5{
-    background-image: url('./assets/IMG/us-commando.webp');
+    background-image: url('../assets/IMG/us-commando.webp');
 }
 
 .card-6{
-    background-image: url('./assets/IMG/sniper-bottle.webp');
+    background-image: url('../assets/IMG/sniper-bottle.webp');
 }
 
 .card-7{
-    background-image: url('./assets/IMG/zombie-outbreak-arena.webp');
+    background-image: url('../assets/IMG/zombie-outbreak-arena.webp');
 }
 
 .card-8{
-    background-image: url('/assets/IMG/mexico-rex.webp');
+    background-image: url('../assets/IMG/mexico-rex.webp');
 }
 
 .card-9{
-    background-image: url('/assets/IMG/killer-assassin.webp');
+    background-image: url('Ação.css');
 }
 
 .card-10{
