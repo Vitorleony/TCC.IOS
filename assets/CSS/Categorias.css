@@ -101,17 +101,6 @@ button{
 
 /* Area do rodapé */
 
-
-footer{
-    background: linear-gradient(45deg, #6ea2da, #0000b3, #000066, #070101);
-    background-size: 300% 300%;
-    animation: colors 15s ease infinite;
-    color: #fff;
-    height: 260px;
-    text-align: center;
-    font-size: 37px;
-}
-
 .menu-button {
     opacity: 0;
     z-index: -99;

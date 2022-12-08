@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap'); */
 
 
 /* area do carrossel */
@@ -79,11 +79,9 @@ span{
     color: blue;
 }
 
-
-
 .imge{
     border-radius: 5rem;
-    margin-left: 12vh; 
+    margin-left: 12vh;
 }
 
 .imge img{
@@ -129,7 +127,8 @@ main{
     background: linear-gradient( 45deg, #e5e9ec, #dae4e9, #cdd1da, #c6f5ff);
     background-size: 300% 300%;
     animation: colors 15s ease infinite;
-    height: 30vh;
+    height: 40vh;
+    overflow: hidden;
 }
 
 .fundo {
@@ -137,15 +136,12 @@ main{
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    
 }
 
 .fundo p {
-    /* width: 100%; */
     text-align: center;
-    font-size: 20px;
+    width: 80%
 }
-
 
 .saiba-mais{
     display: flex;
@@ -174,10 +170,12 @@ main{
 }
 /* area da section */
 
-.image {
+/* .image {
     display: flex;
     flex-wrap: wrap;
-}
+    width: 200px;
+    height: 200px;
+} */
 
 .container {
     display: flex;
@@ -194,7 +192,8 @@ main{
     flex-wrap: wrap;
     margin: 5px 10px;
     cursor: pointer;
-    width: 140%;
+    width: 50%;
+    height: 50%;
 }
 
 img:hover{
@@ -202,9 +201,9 @@ img:hover{
 }
 
 
-p{
+.container__texto{
     margin-bottom: 50px;
-    font-size: .8em;
+    font-size: 1.2rem;
 }
 
 
@@ -237,37 +236,6 @@ ion-icon {
      margin: 15px;
      width: 60vh;
  }
-
-/* area do rodape */
-
-
-.rodape {
-    background: linear-gradient(45deg, #6ea2da, #0000b3, #000066, #070101);
-    background-size: 300% 300%;
-    animation: colors 15s ease infinite;
-    color: #fff;
-    width: 100%;
-    min-height: 31vh;
-    text-align: center;
-} 
-
-.rodape p {
-    display: flex;
-    justify-content: left;
-    font-size: 23px;
-}
-
-.rodape h2{
-    display: flex;
-    justify-content: center;
-    margin-top: auto;
-   
-}
-
-.rodape h1 {
-    align-items: center;
-    font-size: 3px;
-}
 
 
 .menu-button {
