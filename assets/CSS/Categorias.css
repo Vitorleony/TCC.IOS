@@ -1,51 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    font-family: 'Cormorant Garamond', serif;
-} 
-
-/* Area de body */
-
-body{
-    background: linear-gradient(45deg, #000066, #00004d, #070101, #0d0f0f);
-    background-size: 300% 300%;
-    animation: colors 15s ease infinite;
-}
-
-
-
-@keyframes colors{
-    0%{
-        background-position: 0% 50%;
-    }
-    50%{
-        background-position: 100% 50%;
-    }
-    100%{
-        background-position: 0% 50%;
-    }
-}
-
 /* area da navbar  */
-
-nav{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    height: 12vh;
-    background: linear-gradient(45deg, #6ea2da, #0000b3, #000066, #070101);
-    background-size: 300% 300%;
-    animation: colors 15s ease infinite;
-}
-
-nav a{
-    text-decoration: none;
-}
 
 .menu a{
     color: #fff;
@@ -61,7 +14,6 @@ nav a{
 .menu li{
     letter-spacing: 3px;
     margin-left: 32px;
-    font-weight: 600;
 }
 
 .logo-1{
@@ -72,6 +24,17 @@ nav a{
     font-weight: bold;
 }
 
+
+.imge{
+    border-radius: 5rem;
+    /* margin-left: 12vh; */
+}
+
+.imge img{
+    width: 100px;
+    height: 100px;
+    border-radius: 5rem;
+}
 
 
 /* Area do section */

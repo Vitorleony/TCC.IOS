@@ -1,13 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
 
-*{
-    margin: 0;  
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    font-family: 'Cormorant Garamond', serif;
-}
-
 
 /* area do carrossel */
 
@@ -19,6 +11,17 @@ article{
     min-height: 85vh;
     background: linear-gradient( 45deg, #506272, #102027, #7b98d8, #0f2327);
 }
+
+
+.pai {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tamanho-carrossel {
+    width: 80vh;
+} 
 
 .carrossel {
     box-shadow: 2px 2px 5px white;
@@ -40,18 +43,6 @@ article{
     width: 500px;
 }
 
-/* navbar inicio */
-
-.navbar {
-    width: 100%;
-    height: 17vh;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background: linear-gradient(45deg, #6ea2da, #0000b3, #000066, #070101);
-    background-size: 300% 300%;
-    animation: colors 15s ease infinite;
-}
 
 li a {
     text-decoration: none;
@@ -67,7 +58,6 @@ li a {
 .navbar .logo a {
     color: #fff;
     font-size: 35px;
-    font-weight: 500;
 }
 
 .menu li{
@@ -76,14 +66,6 @@ li a {
 
 .navbar .menu li{
     display: inline-block;
-}
-
-.navbar .menu li a{
-    color: #fff;
-    font-size: 18px;
-    font-weight: 500;
-    margin-right: 55px;
-    transition: color 0.3s ease;
 }
 
 .navbar .menu li a:hover{
@@ -101,31 +83,13 @@ span{
 
 .imge{
     border-radius: 5rem;
-    /* margin-left: 12vh; */
+    margin-left: 12vh; 
 }
 
 .imge img{
     width: 100px;
     height: 100px;
     border-radius: 5rem;
-}
-
-
-.pesquisa{
-    background-color: rgba(255, 255, 255, 0.2);
-    padding: 12px;
-    display: flex;
-    border-radius: 8px;
-    box-shadow: rgba(0, 0, 0, 0.904);
-}
-
-.pesquisa input{
-    background-color: transparent;
-    border: 0;
-    font-size: 15px;
-    color: #fff;
-    outline: none;
-
 }
 
 .menu ul{
@@ -162,37 +126,38 @@ span{
 /* area da main */
 
 main{
-    min-height: 60vh;
     background: linear-gradient( 45deg, #e5e9ec, #dae4e9, #cdd1da, #c6f5ff);
     background-size: 300% 300%;
     animation: colors 15s ease infinite;
+    height: 30vh;
 }
 
 .fundo {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    flex-wrap: wrap;
+    
 }
 
 .fundo p {
-    width: 100%;
+    /* width: 100%; */
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
 }
+
+
 .saiba-mais{
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
     align-items: center;
+    flex-wrap: wrap;
     width: 150px;
     height: 38px;
     border-radius: 12px;
     background: black;
     color: #fff;
     text-decoration: none;
-    margin-top: 63px;
 }
 
 .Bem-vindo{
@@ -206,12 +171,6 @@ main{
     cursor: pointer;
     transform: scale(1.03);
     transition: all 1s ease;
-}
-
-
-
-body {
-    background: linear-gradient( 45deg, #506272, #102027, #7b98d8, #0f2327);
 }
 /* area da section */
 
@@ -308,18 +267,6 @@ ion-icon {
 .rodape h1 {
     align-items: center;
     font-size: 3px;
-}
-
-@keyframes colors{
-    0%{
-        background-position: 0% 50%;
-    }
-    50%{
-        background-position: 100% 50%;
-    }
-    100%{
-        background-position: 0% 50%;
-    }
 }
 
 
