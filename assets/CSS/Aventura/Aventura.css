@@ -1,29 +1,29 @@
 .card-1{
-    background-image: url('./assets/IMG/bob-the-robber.webp');
+    background-image: url('/assets/IMG/bob-the-robber.webp');
 }
 
 .card-2{
-    background-image: url('./assets/IMG/MotoX3M.avif');
+    background-image: url('/assets/IMG/ben10-duel-of-the-duplicates.webp');
 }
 
 .card-3{
-    background-image: url('./assets/IMG/car-eats-car-dungeon-adventure.webp');
+    background-image: url('/assets/IMG/car-eats-car-dungeon-adventure.webp');
 }
 
 .card-4{
-    background-image: url('./assets/IMG/block-world-online.webp');
+    background-image: url('/assets/IMG/block-world-online.webp');
 }
 
 .card-5{
-    background-image: url('./assets/IMG/klo.png');
+    background-image: url('/assets/IMG/klo.png');
 }
 
 .card-6{
-    background-image: url('./assets/IMG/bomb.webp');
+    background-image: url('/assets/IMG/bomb.webp');
 }
 
 .card-7{
-    background-image: url('./assets/IMG/fireboy.avif');
+    background-image: url('/assets/IMG/bob-the-robber-2.webp');
 }
 
 .card-8{
@@ -51,7 +51,7 @@
 }
 
 .card-14{
-    background-image: url('/assets/IMG/vegas.avif');
+    background-image: url('/assets/IMG/amigo-pancho-1.webp');
 }
 
 .card-15{

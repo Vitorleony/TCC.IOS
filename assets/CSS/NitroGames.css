@@ -12,7 +12,6 @@ article{
     background: linear-gradient( 45deg, #506272, #102027, #7b98d8, #0f2327);
 }
 
-
 .pai {
     display: flex;
     justify-content: center;
@@ -43,15 +42,14 @@ article{
     width: 500px;
 }
 
-
-/* li a {
-    text-decoration: none;
-} */
-
 .logo {
     font-size: 29px;
     text-transform: uppercase;
     letter-spacing: 4px;
+}
+
+li{
+    color: #000;
 }
 
 
@@ -59,20 +57,19 @@ article{
     color: #fff;
     font-size: 35px;
 }
-/* 
-.menu li{
-    list-style: none;
-    position: relative;
-} */
 
-/* .navbar .menu li{
+.menu li{
+    list-style: none; 
+}
+
+.navbar .menu li{
     display: inline-block;
 }
 
 .navbar .menu li a:hover{
     color: #1f468f;
     opacity: 0.4s;
-} */
+}
 
 span{
     font-size: 36px;
@@ -186,6 +183,7 @@ main{
     margin: 50px 60px;
     padding: 50px;
     background: #8dbae763;
+    flex-wrap: wrap;
 }
 
 .container img{

@@ -1,37 +1,36 @@
 .card-1{
-    background-image: url('https://www.google.com/imgres?imgurl=https%3A%2F%2Fassets.funnygames.com.br%2F7%2F114207%2F99954%2F1200x630%2Farmy-commando-1.webp&imgrefurl=https%3A%2F%2Fwww.funnygames.com.br%2Fjogo%2Farmy_commando_1.html&tbnid=amrGhCxXjgQPvM&vet=12ahUKEwjjl6imhuv7AhW4mJUCHVT3BCYQMygBegUIARCLAQ..i&docid=5_paMTxhWCDYiM&w=1200&h=630&q=army-commando.webp&ved=2ahUKEwjjl6imhuv7AhW4mJUCHVT3BCYQMygBegUIARCLAQ');
-}
+    background-image: url('/assets/IMG/army-commando.webp')}
 
 .card-2{
     background-image: url('/assets/IMG/caçada.jpg');
 }
 
 .card-3{
-    background-image: url('./assets/IMG/ultimate-boxing.webp');
+    background-image: url('/assets/IMG/ultimate-boxing.webp');
 }
 
 .card-4{
-    background-image: url('./assets/IMG/zombie-apocalypse-tunnel-survival.webp');
+    background-image: url('/assets/IMG/zombie-apocalypse-tunnel-survival.webp');
 }
 
 .card-5{
-    background-image: url('../assets/IMG/us-commando.webp');
+    background-image: url('/assets/IMG/us-commando.webp');
 }
 
 .card-6{
-    background-image: url('../assets/IMG/sniper-bottle.webp');
+    background-image: url('/assets/IMG/sniper-bottle.webp');
 }
 
 .card-7{
-    background-image: url('../assets/IMG/zombie-outbreak-arena.webp');
+    background-image: url('/assets/IMG/zombie-outbreak-arena.webp');
 }
 
 .card-8{
-    background-image: url('../assets/IMG/mexico-rex.webp');
+    background-image: url('/assets/IMG/mexico-rex.webp');
 }
 
 .card-9{
-    background-image: url('Ação.css');
+    background-image: url('/assets/IMG/killer-assassin.webp');
 }
 
 .card-10{
