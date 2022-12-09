@@ -54,9 +54,9 @@ body{
     font-weight: 700;
     margin-right: 55px;
     transition: color 0.3s ease;
-}
+} 
 
-/* navbar inicio */
+/* navbar inicio*/
 
 .navbar {
     width: 100%;
@@ -67,7 +67,7 @@ body{
     background: linear-gradient(45deg, #6ea2da, #0000b3, #000066, #070101);
     background-size: 300% 300%;
     animation: colors 15s ease infinite;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 @keyframes colors{
