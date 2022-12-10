@@ -24,7 +24,6 @@ body{
 
 .rodape__social{
     display: flex;
-    flex-direction: column;
     margin-bottom: 2rem;
     list-style: none;
     align-items: center;
@@ -33,14 +32,12 @@ body{
 .rodape__social-midia{
     padding: 10px;
     display: flex;
-    flex-direction: column;
     align-items: center;
 }
 
 .rodape{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    flex-direction: column;
     grid-template-rows: auto;
     place-items: center;
     background: linear-gradient(45deg, #6ea2da, #0000b3, #000066, #070101);
@@ -143,3 +140,43 @@ ion-icon {
         background-position: 0% 50%;
     }
 }
+
+.menu-button {
+    opacity: 0;
+    z-index: -99;
+}
+
+
+@media(max-width: 576px) {
+    .menu {
+    height: 0;
+    z-index: -99;
+    position: absolute;
+    
+    }
+    .menu-active {
+    display: block;
+    width: 100%;
+    height: fit-content;
+    background: linear-gradient(45deg, #6ea2da, #0000b3, #000066, #070101);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    right: 0;
+    top: 16vh;
+    z-index: 99;
+    }
+    .menu li, .menu li a {
+    width: 100%;
+    font-size: 1.5rem;
+    padding-left: 1.5rem;
+    margin: 1rem 0;
+    margin: auto;
+    }
+    .menu-button {
+    opacity: 1;
+    z-index: 999;
+    }
+    
+    }
