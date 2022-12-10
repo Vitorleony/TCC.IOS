@@ -24,6 +24,7 @@ body{
 
 .rodape__social{
     display: flex;
+    flex-direction: column;
     margin-bottom: 2rem;
     list-style: none;
     align-items: center;
@@ -32,12 +33,14 @@ body{
 .rodape__social-midia{
     padding: 10px;
     display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
 .rodape{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    flex-direction: column;
     grid-template-rows: auto;
     place-items: center;
     background: linear-gradient(45deg, #6ea2da, #0000b3, #000066, #070101);
@@ -56,6 +59,48 @@ body{
     transition: color 0.3s ease;
 } 
 
+.menu ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    max-width: 414px;
+    min-height: 896px; 
+    margin: auto;
+}
+
+
+.menu a{
+    text-decoration: none;
+}
+
+li {
+    color: #000;
+    list-style: none;
+}
+
+
+.navbar .logo a {
+    color: #fff;
+    font-size: 35px;
+}
+
+.navbar .menu li {
+    display: inline-block;
+}
+
+.navbar .menu li a:hover {
+    color: #1f468f;
+    opacity: 0.4s;
+}
+
+span {
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+}
+
+
 /* navbar inicio*/
 
 .navbar {
@@ -67,8 +112,25 @@ body{
     background: linear-gradient(45deg, #6ea2da, #0000b3, #000066, #070101);
     background-size: 300% 300%;
     animation: colors 15s ease infinite;
-    /* overflow: hidden; */
 }
+
+.imge {
+    border-radius: 5rem;
+    margin-left: 12vh;
+}
+
+.imge img {
+    width: 100px;
+    height: 100px;
+    border-radius: 5rem;
+}
+
+ion-icon {
+    font-size: 60px;
+    color: #fff;
+    float: left;
+}
+
 
 @keyframes colors{
     0%{
